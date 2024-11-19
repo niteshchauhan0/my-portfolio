@@ -55,11 +55,11 @@ const Hero = () => {
           icon="download"
           />
 
-          <ButtonOutline 
+          {/* <ButtonOutline 
           href="#about"
           label="Scroll down"
           icon="arrow_downward"
-          />
+          /> */}
          </div>
         </div>
 
