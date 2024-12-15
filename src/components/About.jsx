@@ -31,7 +31,7 @@ const About = () => {
         <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl ">
           {/* md:max-w-[60ch] */}
         {/* Welcome! I&apos;m Nitesh Singh, a professional web developer with a knack for crafting visually stunning and highly functional websites. Combining creativity and technical expertise. I transform your vision into digital masterpiece that excels in both appearance and performance. */}
-        Hi! I'm Nitesh Singh, recently graduate engineer with a strong foundation in programming languages like Java and JavaScipt. I'm proficient in DSA and software engineering principles.
+        Hi! I'm Nitesh Singh, recently graduate engineer with a strong foundation in programming languages like Java and JavaScript. I'm proficient in DSA and software engineering principles.
         I have hands-on experience with technologies like Java, HTML, CSS, JavaScript, React, and databases such as MySQL. I enjoy bridging the gap between front-end aesthetics and back-end functionality to create seamless user experiences.
         I thrive on solving complex problems and constantly strive to learn new tools and technologies to stay ahead in this ever-evolving field.
         I'm eager to apply my skills and knowledge in a real-world projects and learn from experienced professionals. I'm looking for an opportunity to grow and develop as a software developer and contribute to innovative projects.
