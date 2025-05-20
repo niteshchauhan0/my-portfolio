@@ -68,9 +68,9 @@ const Hero = () => {
             <img 
 
             //edit------
-            src="/images/ns3.png"
+            src="/images/cover.png"
             width={656}
-            height={800}
+            height={900}
             alt="Nitesh Singh"
             className="w-full"
             />
