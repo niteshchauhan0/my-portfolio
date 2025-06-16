@@ -52,7 +52,7 @@ Section with email, form, or social links for reaching out.
 
 ## 🌐 Live Demo
 
-🔗 [Visit My Portfolio]([https://your-site.netlify.app](https://nitesh-singh-portfolio.netlify.app/))
+🔗 [Visit My Portfolio](https://nitesh-singh-portfolio.netlify.app/)
 
 ---
 
