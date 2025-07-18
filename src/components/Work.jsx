@@ -29,15 +29,18 @@ const works = [
     desc: 'As a final project in college, our team developed an Airline Management System using Java, showcasing our expertise in software development and problem-solving. This system streamlines airline operations, enhancing efficiency and customer satisfaction.Integrated with database management system for data storage and retrieval.'
   },
   {
-    imgSrc: '/images/SRA.png',
-    title: 'Student Registration System',
-    desc: 'Created a student registration system using Java and MySQL, allowing administrators to manage student records. Designed a user-friendly interface for data entry and retrieval. Implemented secure data storage and retrieval using SQL. It ensures efficiency, accuracy, and ease of use for educational institutions.'
-  },
+    imgSrc: '/images/emp-management.png',
+    title: 'Employee Management System',
+    desc: 'A modern Java-based web application for managing employee records efficiently. EMS offers seamless login, profile personalization, and a fluid user experience. Developed using Java Servlets, JSP, JDBC with MySQL for robust backend and data handling. Features a clean, responsive UI built with Bootstrap 5 and FontAwesome icons for enhanced usability.',
+    projectLink: 'https://github.com/niteshchauhan0/EmployeeManagement'
+  },  
   {
-    imgSrc: '/images/rps4.jpg',
-    title: 'Rock Paper Scissors Game',
-    desc: 'Provides an interactive gaming experience where user play the classic Rock-Paper-Scissors game against the computer. Utilizes HTML, CSS, and JavaScript for smooth functionality and dynamic visuals. Enables user to make their choice and displays real-time outcomes with a user-friendly interface. Promotes learning and entertainment through a simple, technology-driven solution.'
-  },
+    imgSrc: '/images/E-commerce.png',
+    title: 'Shopping Cart JSP Web App',
+    desc: 'A sleek and modern shopping cart application built using JSP, Servlets, JDBC, and MySQL. Designed with Glassmorphism UI, Bootstrap 5, and Dark Mode support. Features include product selection and quantity update, live cart preview, checkout summary, toast notifications, and cart persistence using HttpSession, all following the MVC pattern.',
+    projectLink: 'https://github.com/niteshchauhan0/shopping-cart-jsp'
+  }
+  
 ];
 
 const Work = () => {
