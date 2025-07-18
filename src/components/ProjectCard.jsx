@@ -3,81 +3,58 @@
  * @license Apache-2.0
  */
 
-
-/* Node Molecules */
-
 import PropTypes from "prop-types";
-
 
 const ProjectCard = ({
   imgSrc,
   title,
   desc,
-  // projectLink,
-  classes
+  projectLink,
+  classes = ""
 }) => {
   return (
-    <div className={"relative p-4 rounded-2xl bg-zinc-800 hover:bg-zinc-700/50 active:bg-zinc-700/60 ring-1 ring-inset ring-zinc-50/5 transitions-colors" + classes}>
-
-      <figure className="img box aspect-square rounded-lg mb-4">
-        <img 
-        src={imgSrc}
-        alt={title}
-        loading='lazy' 
-        className="img-cover"
-         />
+    <div className={`relative p-4 rounded-2xl bg-zinc-800 hover:bg-zinc-700/50 active:bg-zinc-700/60 ring-1 ring-inset ring-zinc-50/5 transition-colors ${classes}`}>
+      <figure className="aspect-square rounded-lg mb-4 overflow-hidden">
+        <img
+          src={imgSrc}
+          alt={title}
+          loading="lazy"
+          className="w-full h-full object-cover"
+        />
       </figure>
 
-      <div className="flex items-center justify-between gap-4">
-
-        <div>
-          <h3 className="title-1 mb-3">
-            {title}
-          </h3>
-
-          <div className="flex flex-wrap items-center gap-2">
-            {desc}
-            {/* .map((label, key) => (
-              <span
-               key={key} 
-               className="h-8 text-sm text-zinc-400 bg-zinc-50/5 grid items-center px-3 rounded-lg"
-              >
-               {label}
-              </span>
-            ))} */}
-
-          </div>
-        </div>
-
-        {/* <div className="w-11 h-11 rounded-lg grid place-items-center bg-sky-400 text-zinc-950 shrink-0">
-          <span 
-          className="material-symbols-rounded"
-          aria-hidden="true"
-          >
-            arrow_outward
-          </span>
-        </div>  */}
-
-
+      <div className="mb-3">
+        <h3 className="text-lg font-semibold text-white mb-2">
+          {title}
+        </h3>
+        <p className="text-sm text-zinc-400">
+          {desc}
+        </p>
       </div>
 
-      {/* <a 
-      href={projectLink}
-      target="_blank"
-      className="absolute inset-0"
-      ></a> */}
-
+      {projectLink && (
+        <div className="mt-4">
+          <a
+            href={projectLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1 text-sky-400 hover:text-sky-300 text-sm font-medium transition-colors"
+          >
+            Visit Project
+            <span className="material-symbols-rounded text-base">arrow_outward</span>
+          </a>
+        </div>
+      )}
     </div>
-  )
-}
-
+  );
+};
 
 ProjectCard.propTypes = {
   imgSrc: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
-  // tags: PropTypes.array.isRequired,
+  desc: PropTypes.string.isRequired,
   projectLink: PropTypes.string,
   classes: PropTypes.string
-}
+};
 
 export default ProjectCard;

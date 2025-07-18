@@ -1,70 +1,37 @@
-/**
- *  @copyright 2024 niteshsingh
- * @license Apache-2.0
- */
-
-
-// const aboutItems = [
-//   {
-//     label: 'Project done',
-//     number: 45
-//   },
-//   {
-//     label: 'Years of experience',
-//     number: 10
-//   }
-// ];
-
 const About = () => {
   return (
-    <section
-    id="about"
-    className="section"
-    >
-      <div className="container">
-      <h2 className="headline-2 mb-6 reveal-up">
-          About Me
-        </h2>
+    <section id="about" className="section py-16">
+      <div className="container max-w-4xl mx-auto px-4">
+        <h2 className="text-3xl font-bold text-white mb-8 reveal-up">About Me</h2>
 
-       <div className="bg-zinc-800/50 p-7 rounded-2xl mid:p-12 reveal-up">
-
-        <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl ">
-          {/* md:max-w-[60ch] */}
-        {/* Welcome! I&apos;m Nitesh Singh, a professional web developer with a knack for crafting visually stunning and highly functional websites. Combining creativity and technical expertise. I transform your vision into digital masterpiece that excels in both appearance and performance. */}
-        Hi! I'm Nitesh Singh, recently graduate engineer with a strong foundation in programming languages like Java and JavaScript. I'm proficient in DSA and software engineering principles.
-        I have hands-on experience with technologies like Java, HTML, CSS, JavaScript, React, and databases such as MySQL. I enjoy bridging the gap between front-end aesthetics and back-end functionality to create seamless user experiences.
-        I thrive on solving complex problems and constantly strive to learn new tools and technologies to stay ahead in this ever-evolving field.
-        I'm eager to apply my skills and knowledge in a real-world projects and learn from experienced professionals. I'm looking for an opportunity to grow and develop as a software developer and contribute to innovative projects.
-        Feel free to check out my work below or reach out-I'd love to collaborate on your next project!
-        </p>
-
-        {/* <div className="flex flex-wrap items-center gap-4 md:gap-7">
-          {
-            aboutItems.map(({label, number },key) => (
-              <div key={key}>
-                <div className="flex items-center md:mb-2">
-                  <span className="text-2xl font-semibold md:text-4xl">{number}</span>
-                  <span className="text-sky-400 font-semibold md:text-3xl">+</span>
-                </div>
-
-                <p className="text-sm text-zinc-400">{label}</p>
-                </div>
-            ))
-          } */}
-
-          {/* <img 
-          src="/images/logo.svg" 
-          alt="Logo"
-          width={30}
-          height={30} 
-          className="ml-auto md:w-[40px] md:h-[40px]"
-           />
-        </div> */}
-       </div>
-
+        <div className="bg-zinc-800/50 p-6 md:p-10 rounded-2xl reveal-up">
+          <p className="text-zinc-300 text-base md:text-lg leading-relaxed space-y-4">
+            <span className="block mb-4">
+              Hi! I'm <strong className="text-white">Nitesh Singh</strong>, a passionate software developer with a solid foundation in Java, C++, and C#, and a growing expertise across both frontend and backend technologies.
+            </span>
+            <span className="block mb-4">
+              I recently graduated with an engineering degree and have honed my skills in Data Structures & Algorithms, Object-Oriented Programming, and full-stack application development.
+            </span>
+            <span className="block mb-4">
+              On the frontend, I specialize in React, enhanced with TailwindCSS, Bootstrap, HTML5, and CSS3 to build responsive, modern user interfaces.
+            </span>
+            <span className="block mb-4">
+              On the backend, I work confidently with Java (Spring Boot) and C# (.NET), and also enjoy building with Node.js when working in the JavaScript ecosystem.
+            </span>
+            <span className="block mb-4">
+              I’m experienced in managing databases like MySQL and MongoDB, and have a strong grasp on using tools like Postman for API testing and GitHub for version control and collaboration.
+            </span>
+            <span className="block mb-4">
+              I love solving real-world problems and bridging the gap between design and logic. I'm always eager to learn, adapt, and contribute to impactful projects.
+            </span>
+            <span className="block">
+              Whether it's a clean UI or a scalable backend, I bring energy and precision to everything I build. Let’s connect and create something awesome—check out my work below or reach out for collaboration opportunities!
+            </span>
+          </p>
+        </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
 export default About;
