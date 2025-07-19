@@ -14,10 +14,11 @@ const works = [
     projectLink: 'https://jobportal-frontend-ynnl.onrender.com/'
   },
   {
-    imgSrc: '/images/E-commerce.png',
-    title: 'eCommerce Website',
-    desc: 'Responsive Design: Adapts to various devices and screen sizes for optimal user experience. Product Catalog: Robust filtering and sorting capabilities for easy product discovery. Secure Checkout: Smooth transactions with payment gateway integration. Interactive Elements: JavaScript-powered carousels and modal windows for enhanced engagement.'
-  },
+    imgSrc: '/images/codo-file.jpg',
+    title: 'Codo-File',
+    desc: 'Codo-File is a versatile online code editor supporting live execution of JavaScript and Python. It includes advanced features like Image-to-Text extraction using OCR and Voice-to-Text conversion for real-time speech transcription. Built with Node.js, Express, and GSAP animations, it offers a responsive UI, interactive experience, and user feedback integration. Ideal for developers and learners seeking an all-in-one coding, testing, and productivity tool.',
+    projectLink: 'https://github.com/niteshchauhan0/codo-file'
+  },  
   {
     imgSrc: '/images/f2.avif',
     title: 'The Fat Burner',
