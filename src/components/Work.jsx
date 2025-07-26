@@ -20,14 +20,16 @@ const works = [
     projectLink: 'https://github.com/niteshchauhan0/codo-file'
   },  
   {
-    imgSrc: '/images/f2.avif',
-    title: 'The Fat Burner',
-    desc: 'Predicts and tracks calories burned during diverse exercises with high accuracy, helping users optimize their fitness routines. Enables users to input exercise details and receive precise data on calorie expenditure. Improves personal fitness and wellness through technology-driven, machine learning-powered solutions.'
+    imgSrc: '/images/fit.jpg',
+    title: 'Fitness Track',
+    desc: 'FitnessTrack is a full-stack fitness tracking web application built using the MERN stack: MongoDB, Express.js, React.js, and Node.js. The app allows users to register, log in securely, add/edit/delete workouts, view weekly analytics, read fitness blogs, explore categorized workout tutorials, track progress, and stay motivated — all within a sleek, responsive, and modern UI powered by Tailwind CSS and smooth animations.',
+    projectLink: 'https://github.com/niteshchauhan0/FitnessTrack'
   },
   {
     imgSrc: '/images/Air1.png',
     title: 'Airline Management System',
-    desc: 'As a final project in college, our team developed an Airline Management System using Java, showcasing our expertise in software development and problem-solving. This system streamlines airline operations, enhancing efficiency and customer satisfaction.Integrated with database management system for data storage and retrieval.'
+    desc: 'As a final project in college, our team developed an Airline Management System using Java, showcasing our expertise in software development and problem-solving. This system streamlines airline operations, enhancing efficiency and customer satisfaction.Integrated with database management system for data storage and retrieval.',
+    projectLink: '/'
   },
   {
     imgSrc: '/images/emp-management.png',
