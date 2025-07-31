@@ -8,28 +8,28 @@ import ProjectCard from "./ProjectCard";
 
 const works = [
   {
+    imgSrc: '/images/doc1.jpg',
+    title: 'DocSlot - Online Appointment Scheduling System',
+    desc: 'DocSlot Online Appointment System is a web-based platform designed to make healthcare appointment scheduling easier for everyone. It supports four types of users Admin, Patient, Doctor, and Receptionist. Patients can easilybook or cancel appointments through a simple interface. Doctors can manage their schedules, while receptionists help handle daily appointment tasks. Admins have full control over the system.',
+    projectLink: 'https://github.com/niteshchauhan0/codo-file'
+  }, 
+  {
     imgSrc: '/images/JobHook.png', 
     title: 'JobHook – Job Portal Application',
     desc: 'A full-stack job portal built using Spring Boot and React, enabling users to find jobs, post listings, apply, and manage profiles. It features role-based login (applicant/recruiter), JWT authentication, real-time notifications, and a responsive UI powered by Material UI. Backend APIs are secured and structured using REST principles. MongoDB is used for scalable data storage. The project is designed with performance, usability, and scalability in mind.',
-    projectLink: 'https://jobportal-frontend-ynnl.onrender.com/'
+    projectLink: 'https://github.com/niteshchauhan0/JobHook'
   },
   {
     imgSrc: '/images/codo-file.jpg',
     title: 'Codo-File',
     desc: 'Codo-File is a versatile online code editor supporting live execution of JavaScript and Python. It includes advanced features like Image-to-Text extraction using OCR and Voice-to-Text conversion for real-time speech transcription. Built with Node.js, Express, and GSAP animations, it offers a responsive UI, interactive experience, and user feedback integration. Ideal for developers and learners seeking an all-in-one coding, testing, and productivity tool.',
-    projectLink: 'https://github.com/niteshchauhan0/codo-file'
-  },  
+    projectLink: 'https://github.com/niteshchauhan0/docSlot'
+  },
   {
     imgSrc: '/images/fit.jpg',
     title: 'Fitness Track',
-    desc: 'FitnessTrack is a full-stack fitness tracking web application built using the MERN stack: MongoDB, Express.js, React.js, and Node.js. The app allows users to register, log in securely, add/edit/delete workouts, view weekly analytics, read fitness blogs, explore categorized workout tutorials, track progress, and stay motivated — all within a sleek, responsive, and modern UI powered by Tailwind CSS and smooth animations.',
+    desc: 'FitnessTrack is a full-stack fitness tracking web application built using the MERN stack. The app allows users to register, log in securely, add/edit/delete workouts, view weekly analytics, read fitness blogs, explore categorized workout tutorials, track progress, and stay motivated — all within a sleek, responsive, and modern UI powered by Tailwind CSS.',
     projectLink: 'https://github.com/niteshchauhan0/FitnessTrack'
-  },
-  {
-    imgSrc: '/images/Air1.png',
-    title: 'Airline Management System',
-    desc: 'As a final project in college, our team developed an Airline Management System using Java, showcasing our expertise in software development and problem-solving. This system streamlines airline operations, enhancing efficiency and customer satisfaction.Integrated with database management system for data storage and retrieval.',
-    projectLink: '/'
   },
   {
     imgSrc: '/images/emp-management.png',

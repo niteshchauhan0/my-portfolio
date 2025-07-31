@@ -78,7 +78,7 @@ const Hero = () => {
 
           <div className="mt-8 flex items-center gap-4">
             <ButtonPrimary
-              href="https://drive.google.com/file/d/1ZE8pnkQZrdaiKt1HDxtJCpyK96bTRtV3"
+              href="https://drive.google.com/file/d/1gQeGg4cfobiG-dUkwvViPxgOhm6olbX_/view?usp=drivesdk"
               label="Download Resume"
               icon="download"
             />
