@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply min-h-screen bg-stone-950 text-stone-100 antialiased;
+    font-family: "Space Grotesk", sans-serif;
+    text-rendering: optimizeLegibility;
+    background-image:
+      radial-gradient(circle at top left, rgba(251, 146, 60, 0.18), transparent 32%),
+      radial-gradient(circle at top right, rgba(45, 212, 191, 0.14), transparent 24%),
+      linear-gradient(180deg, #120f0d 0%, #191514 42%, #0f1720 100%);
+  }
+
+  ::selection {
+    background: rgba(251, 146, 60, 0.35);
+    color: #fff7ed;
+  }
+}
+
+@layer components {
+  .container {
+    @apply mx-auto w-full max-w-7xl px-5 sm:px-6 lg:px-8;
+  }
+
+  .section {
+    @apply py-20 lg:py-28;
+  }
+
+  .eyebrow {
+    @apply mb-4 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs font-medium uppercase tracking-[0.22em] text-orange-200/90;
+  }
+
+  .headline-1,
+  .headline-2,
+  .headline-3 {
+    font-family: "Fraunces", serif;
+    text-wrap: balance;
+  }
+
+  .headline-1 {
+    @apply text-5xl leading-[1.02] sm:text-6xl lg:text-7xl;
+  }
+
+  .headline-2 {
+    @apply text-3xl leading-tight sm:text-4xl lg:text-5xl;
+  }
+
+  .headline-3 {
+    @apply text-2xl leading-tight sm:text-3xl;
+  }
+
+  .section-copy {
+    @apply max-w-2xl text-base leading-7 text-stone-300 sm:text-lg;
+  }
+
+  .surface {
+    @apply rounded-[28px] border border-white/10 bg-white/[0.045] shadow-[0_24px_80px_rgba(0,0,0,0.28)] backdrop-blur-md;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-3 text-sm font-medium transition duration-300;
+  }
+
+  .btn-primary {
+    @apply bg-orange-300 text-stone-950 shadow-[0_10px_24px_rgba(251,146,60,0.22)] hover:-translate-y-0.5 hover:bg-orange-200;
+  }
+
+  .btn-outline {
+    @apply border border-white/15 bg-white/5 text-stone-100 hover:-translate-y-0.5 hover:border-orange-200/40 hover:bg-white/10;
+  }
+
+  .label {
+    @apply mb-2 block text-sm font-medium text-stone-200;
+  }
+
+  .text-field {
+    @apply w-full rounded-2xl border border-white/10 bg-stone-950/60 px-4 py-3 text-sm text-stone-100 outline-none transition duration-300 placeholder:text-stone-500 focus:border-orange-300 focus:ring-2 focus:ring-orange-300/20;
+  }
+
+  .reveal-up {
+    @apply translate-y-16 opacity-0;
+  }
+}
